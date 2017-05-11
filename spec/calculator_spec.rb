@@ -26,7 +26,7 @@ end
 RSpec.describe Display do
 
   it "Displays the output in a pretty way" do
-    expect  (subject.display_answer(5)).to eq "Your answer is: 5"
+    expect(subject.display_answer(5)).to eq "Your answer is: 5"
   end
 
 end
