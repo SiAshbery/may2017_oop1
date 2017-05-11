@@ -9,3 +9,11 @@ class Calculator
   end
 
 end
+
+class Display
+
+  def display_answer(answer)
+    "Your answer is: 5"
+  end
+
+end

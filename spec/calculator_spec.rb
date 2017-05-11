@@ -19,4 +19,14 @@ RSpec.describe Calculator do
     expect(subject.subtract(-1, -1)).to eq 0
     expect(subject.subtract(0, Float::INFINITY)).to eq -Float::INFINITY
   end
+
+
+end
+
+RSpec.describe Display do
+
+  it "Prints the output in a pretty way" do
+    expect(subject.display_answer(5)).to eq "Your answer is: 5"
+  end
+
 end
